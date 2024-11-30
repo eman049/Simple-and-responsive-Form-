@@ -1,0 +1,39 @@
+/*Adding css to Simple form*/
+body{
+    /*now we add bg image*/
+   background-image: url(https://th.bing.com/th/id/R.66621c83a9cf7029265209c62a1685d2?rik=M%2b7k%2flMOu9Ee1Q&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f10%2fBlack-and-Orange-Background-Full-HD.jpg&ehk=Yc17hJ8ZoSguY2lsx5AyxNZLnJTwvjiRtRk0LMmViu8%3d&risl=&pid=ImgRaw&r=0);
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+    text-align: center;
+    font-family: cursive;
+}
+h1{
+    text-shadow: 5px 4px 12px rgb(255, 116, 9);
+}
+
+form{
+    margin-left: 32%;
+    background: rgba(234, 197, 134, 0.659);
+    padding: 35px;
+    border: 7px outset rgb(207, 135, 11);
+    border-radius: 55px;
+    width: 30%;
+}
+label{
+    color: rgb(101, 10, 93);
+    font-size: 16px;
+}
+button{
+    border: 4px inset  orange ;
+    background: orangered;
+    color: white;
+    border-radius: 13px 4px;
+    padding: 9px 9px;
+    width: 40%;
+}
+button:hover{
+    background: olivedrab;
+    width:60%;
+
+}
